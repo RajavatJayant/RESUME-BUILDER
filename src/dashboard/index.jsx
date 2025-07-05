@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from 'react'
 import AddResume from './components/AddResume'
 import { useUser } from '@clerk/clerk-react'
@@ -40,8 +41,20 @@ function Dashboard() {
         ))
         }
       </div>
+=======
+import React from 'react'
+
+function Dashboard() {
+  return (
+    <div>
+      dashhhh
+>>>>>>> 6075b15facd7bf1b537d63bf998c3e76d47015b9
     </div>
   )
 }
 
+<<<<<<< HEAD
 export default Dashboard
+=======
+export default Dashboard
+>>>>>>> 6075b15facd7bf1b537d63bf998c3e76d47015b9

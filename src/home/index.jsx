@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Header from '@/components/custom/Header'
 import { UserButton } from '@clerk/clerk-react'
 import { AtomIcon, Edit, Share2 } from 'lucide-react'
@@ -128,8 +129,23 @@ function Home() {
     </section>
   </div>
  
+=======
+import { UserButton } from '@clerk/clerk-react'
+import React from 'react'
+
+ function Home()  {
+  return (
+    <div>
+    <Home/>
+    <UserButton/>
+>>>>>>> 6075b15facd7bf1b537d63bf998c3e76d47015b9
     </div>
   )
 }
 
+<<<<<<< HEAD
 export default Home
+=======
+export default Home
+
+>>>>>>> 6075b15facd7bf1b537d63bf998c3e76d47015b9
